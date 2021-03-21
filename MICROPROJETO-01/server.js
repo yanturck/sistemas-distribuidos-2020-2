@@ -1,7 +1,4 @@
-//const { write } = require("fs");
 const net = require("net");
-const CARD = require("./cardapio");
-const interacoesCliente = require("./interacoesCliente");
 
 /**
  * Servidor responsavél pelo suporte de um sistema de pedidos de comida
@@ -9,7 +6,7 @@ const interacoesCliente = require("./interacoesCliente");
  * e outra para o serviço adiministrativo
  */
 
-var msgInicial = 'Bem-vido ao sFood!\nSe vc for um cliente desejando fazer um pedido digite "CARDAPIO"!\nCaso vc seja um adiministrador digite "ADMIN"\nCaso vc queira sair digite "X".\n';
+var msgInicial = '\nBem-vido ao sFood!\nSe vc for um cliente desejando fazer um pedido digite "CARDAPIO"!\nCaso vc seja um adiministrador digite "ADMIN"\nCaso vc queira sair digite "X".\n';
 var msgPedidos = "\nDigite o número do item que você deseja:\n";
 var msgAdmin = "\nDigite a senha de adimistrador:\n";
 var menuCard = "\nAgora vc pode listar os itens(listI) ou pedidos(listP),\nbuscar um pedido(findP),\nexcluir um pedido(del),\nfinalizar(fin) ou cancelar a compra(can).\n";

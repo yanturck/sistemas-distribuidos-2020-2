@@ -1,0 +1,15 @@
+{
+  "name": "microprojeto-01",
+  "version": "1.0.0",
+  "description": "Primeiro microprojeto para a disciplina de Sistemas Distribuidos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Yan Rocha Pimenta",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

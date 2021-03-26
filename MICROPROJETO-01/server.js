@@ -97,7 +97,7 @@ function deleteItem(n){
     if (tmp >= cardapio.length) {
         return 0;
     }else {
-        cardapio.splice(tmp,tmp);
+        cardapio.splice(tmp,1);
         indices.pop();
         return 1;
     }
@@ -112,7 +112,7 @@ function dellPedido(ind){
         if (tmp >= pedidos.length) {
             return 0;
         }else {
-            pedidos.splice(tmp,tmp);
+            pedidos.splice(tmp,1);
             return 1;
         }
     }
